@@ -1,0 +1,22 @@
+{
+  "name": "federated-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently npm:start:*",
+    "start:index": "nodemon index.js",
+    "start:product": "nodemon product.js",
+    "start:category": "nodemon category.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/federation": "^0.35.1",
+    "@apollo/gateway": "^0.48.1",
+    "@elastic/elasticsearch": "^8.0.0",
+    "apollo-server": "^3.6.3",
+    "concurrently": "^7.0.0"
+  }
+}

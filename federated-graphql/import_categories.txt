@@ -1,0 +1,6 @@
+{"index":{"_id":"C1"}}
+{"name":"Kitchen"}
+{"index":{"_id":"C2"}}
+{"name":"Garden"}
+{"index":{"_id":"C3"}}
+{"name":"Sports"}

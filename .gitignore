@@ -1,1 +1,3 @@
 /e-commerce/node_modules/
+/federated-graphql/node_modules/
+/federated-graphql2/**/node_modules/
